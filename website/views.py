@@ -32,3 +32,11 @@ def delete_note():
     return jsonify({})
 
 
+@views.route('/update-note', methods=['POST'])
+def update_note():
+    note = json.loads(request.data)
+    noteId = note['noteId']
+    note = Note.query.get(noteId)
+    delete_note()
+    return render_template('update.html', noteId=noteId)
+
