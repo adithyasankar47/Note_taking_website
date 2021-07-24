@@ -5,12 +5,23 @@
   {% for note in user.notes %}
   <li class="list-group-item">
     {{ note.data }}
-    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
-      <span aria-hidden="true">&times;</span>
-    </button>
-    <button type="button" class="close" onClick="updateNote({{ note.id }})">
-      <span aria-hidden="true">Update</span>
-    </button>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button
+        type="button"
+        class="btn btn-danger me-md-2"
+        onClick="deleteNote({{ note.id }})"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+      &nbsp;&nbsp;
+      <button
+        type="button"
+        class="btn btn-success"
+        onClick="updateNote({{ note.id }})"
+      >
+        <span aria-hidden="true">Update</span>
+      </button>
+    </div>
   </li>
   {% endfor %}
 </ul>
