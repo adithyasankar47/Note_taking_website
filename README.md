@@ -5,7 +5,7 @@ A website in which user can **login** using *email id* and *password* to create,
 The todo website has been succesfully **deployed** using **Heroku**.
 It is accessible via the following link
 
-[Todo-app-using-flask] (https://todo-app-using-flask.herokuapp.com/)
+[Todo-app-using-flask](https://todo-app-using-flask.herokuapp.com/)
 
 ## Steps to deploy
 1. Install the packages mentioned in Requirements
@@ -29,7 +29,7 @@ It is accessible via the following link
 
     - The login system will check for the strength of the password, validity of the username etc.
 
-    - The passwords are hashed before being stored in the database.
+    - The passwords are hashed using sha256 before being stored in the database.
 
 ### 2. Database System 
 
