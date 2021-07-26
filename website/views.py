@@ -38,5 +38,5 @@ def update_note():
     noteId = note['noteId']
     note = Note.query.get(noteId)
     delete_note()
-    return render_template('update.html', noteId=noteId)
+    return render_template('update.html')
 
