@@ -1,9 +1,26 @@
 # Todo List App with User Authentication
 
-A website in which user can **login** using email id and password to create, delete and save **Todos**
+A website in which user can **login** using *email id* and *password* to create, delete and update **Todos**
 
 
-- The login system is created using *flask-login* module.
+## Steps to deploy
+1. Install the packages mentioned in Requirements
+2. Run the command python .\main.py to deploy the  application
+3. Use of virtual environment is advised
+
+## Requirements
+Flask==2.0.1
+Flask-Login==0.5.0
+Flask-SQLAlchemy==2.5.1
+Jinja2==3.0.1
+python-dateutil==2.8.1
+SQLAlchemy==1.4.20
+virtualenv==20.6.0
+Werkzeug==2.0.1
+
+## Basic Structure
+
+- The login system is created using **flask-login** module.
 
 - The login system will check for the strength of the password, validity of the username etc.
 
@@ -18,4 +35,4 @@ A website in which user can **login** using email id and password to create, del
 
 - Each element of the Todo list can be updated and deleted.
 
-- Each user has access to only his respective Todo list after signing up and then loggin in
+- Each user has access to only his respective Todo list after signing up and then logging in
