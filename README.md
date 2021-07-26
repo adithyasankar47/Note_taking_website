@@ -2,6 +2,10 @@
 
 A website in which user can **login** using *email id* and *password* to create, delete and update **Todos**
 
+The todo website has been succesfully **deployed** using **Heroku**.
+It is accessible via the following link
+
+[Todo-app-using-flask] (https://todo-app-using-flask.herokuapp.com/)
 
 ## Steps to deploy
 1. Install the packages mentioned in Requirements
