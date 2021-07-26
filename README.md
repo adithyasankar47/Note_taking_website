@@ -9,14 +9,14 @@ A website in which user can **login** using *email id* and *password* to create,
 3. Use of virtual environment is advised
 
 ## Requirements
-Flask==2.0.1
-Flask-Login==0.5.0
-Flask-SQLAlchemy==2.5.1
-Jinja2==3.0.1
-python-dateutil==2.8.1
-SQLAlchemy==1.4.20
-virtualenv==20.6.0
-Werkzeug==2.0.1
+- Flask==2.0.1
+- Flask-Login==0.5.0
+- Flask-SQLAlchemy==2.5.1
+- Jinja2==3.0.1
+- python-dateutil==2.8.1
+- SQLAlchemy==1.4.20
+- virtualenv==20.6.0
+- Werkzeug==2.0.1
 
 ## Basic Structure
 
