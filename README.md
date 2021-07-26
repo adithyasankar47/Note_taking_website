@@ -9,7 +9,7 @@ It is accessible via the following link
 
 ## Steps to deploy
 1. Install the packages mentioned in Requirements
-2. Run the command python .\main.py to deploy the  application
+2. Run the command python .\app.py to deploy the  application
 3. Use of virtual environment is advised
 
 ## Requirements
@@ -24,19 +24,29 @@ It is accessible via the following link
 
 ## Basic Structure
 
-- The login system is created using **flask-login** module.
+### 1. Authentication System
+    - The login system is created using **flask-login** module.
 
-- The login system will check for the strength of the password, validity of the username etc.
+    - The login system will check for the strength of the password, validity of the username etc.
 
-- The passwords are **hashed** before being stored in the database.
+    - The passwords are **hashed** before being stored in the database.
 
+### 2. Database System 
 
-- **SQLAlchemy** is used as to create the database and to define database schema.
+    - **SQLAlchemy** is used as to create the database and to define database schema.
 
-- All the user notes, email, password etc are stored in a database.
+    - All the user notes, email, password etc are stored in a database.
 
-- **Bootstrap** is used to make the Navbar, buttons, and to make the page aesthetically pleasing
+### 3. UI Elements
 
-- Each element of the Todo list can be updated and deleted.
-
-- Each user has access to only his respective Todo list after signing up and then logging in
+    - Bootstrap is used to make the Navbar, buttons, and to make the page aesthetically pleasing
+    - **Javascript** has been used to make the page more interactive.
+    - **Alerts** have been provided to guide the user through the UI.
+### 4. Functionality
+    - The user can access the webpage via the URL provided above.
+    - Then first time users can go to the signUp page using the navbar.
+    - They can signUp using an email, username and password.
+    - The passwords, username, email etc are checked before being accepted for security.
+    - After signUp the user will be redirected to the Login page and  asked to Login again redirected to the Login page. 
+    - On successful submission of Login details and authentication, the user will be directed to the page where they can add, delete or update Todos.
+    - They user can Logout using the option in the navbar after adding, modifying Todos.
