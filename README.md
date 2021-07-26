@@ -43,10 +43,10 @@ It is accessible via the following link
     - Javascript has been used to make the page more interactive.
     - Alerts have been provided to guide the user through the UI.
 ### 4. Functionality
-    - The user can access the webpage via the URL provided above.
-    - Then first time users can go to the signUp page using the navbar.
-    - They can signUp using an email, username and password.
-    - The passwords, username, email etc are checked before being accepted for security.
-    - After signUp the user will be redirected to the Login page and  asked to Login again redirected to the Login page. 
-    - On successful submission of Login details and authentication, the user will be directed to the page where they can add, delete or update Todos.
-    - They user can Logout using the option in the navbar after adding, modifying Todos.
+    1. The user can access the webpage via the URL provided above.
+    2. Then first time users can go to the signUp page using the navbar.
+    3. They can signUp using an email, username and password.
+    4. The passwords, username, email etc are checked before being accepted for security.
+    5. After signUp the user will be redirected to the Login page and  asked to Login again redirected to the Login page. 
+    6. On successful submission of Login details and authentication, the user will be directed to the page where they can add, delete or update Todos.
+    7. They user can Logout using the option in the navbar after adding, modifying Todos.
