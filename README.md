@@ -24,25 +24,25 @@ It is accessible via the following link
 
 ## Basic Structure
 
-### 1. Authentication System
+#### 1. Authentication System
     - The login system is created using flask-login module.
 
     - The login system will check for the strength of the password, validity of the username etc.
 
     - The passwords are hashed using sha256 before being stored in the database.
 
-### 2. Database System 
+#### 2. Database System 
 
     - SQLAlchemy is used as to create the database and to define database schema.
 
     - All the user notes, email, password etc are stored in a database.
 
-### 3. UI Elements
+#### 3. UI Elements
 
     - Bootstrap is used to make the Navbar, buttons, and to make the page aesthetically pleasing
     - Javascript has been used to make the page more interactive.
     - Alerts have been provided to guide the user through the UI.
-### 4. Functionality
+#### 4. Functionality
     1. The user can access the webpage via the URL provided above.
     2. Then first time users can go to the signUp page using the navbar.
     3. They can signUp using an email, username and password.
