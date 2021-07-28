@@ -50,3 +50,7 @@ It is accessible via the following link
     5. After signUp the user will be redirected to the Login page and  asked to Login again redirected to the Login page. 
     6. On successful submission of Login details and authentication, the user will be directed to the page where they can add, delete or update Todos.
     7. They user can Logout using the option in the navbar after adding, modifying Todos.
+
+    ### The screenshots of the website are attached below
+    ![](images/signup.jpg)
+    <img src="images/signup.JPG width="40" height="40">
