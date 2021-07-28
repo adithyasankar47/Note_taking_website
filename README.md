@@ -63,7 +63,7 @@ It is accessible via the following link
     3. They can signUp using an email, username and password.
     4. The passwords, username, email etc are checked before being accepted for security.
     5. After signUp the user will be redirected to the Login page and  asked to Login again redirected to the Login page. 
-    6. On successful submission of Login details and authentication, the user will be directed to the page where they can add, delete or update Todos.
+    6. After verifying the login details, the user will be directed to the add, delete or update Todos page.
     7. They user can Logout using the option in the navbar after adding, modifying Todos.
 
 ## The screenshots of the website are attached below
