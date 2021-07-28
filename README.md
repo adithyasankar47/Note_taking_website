@@ -55,15 +55,23 @@ It is accessible via the following link
 #### 3. UI Elements
 
     - Bootstrap is used to make the Navbar, buttons, and to make the page aesthetically pleasing
+
     - Javascript has been used to make the page more interactive.
+
     - Alerts have been provided to guide the user through the UI.
 #### 4. Functionality
     1. The user can access the webpage via the URL provided above.
+
     2. Then first time users can go to the signUp page using the navbar.
+
     3. They can signUp using an email, username and password.
+
     4. The passwords, username, email etc are checked before being accepted for security.
+
     5. After signUp the user will be directed to login again in the login page. 
+
     6. After verifying the login details, the user will be directed to the add, delete or update Todos page.
+    
     7. They user can Logout using the option in the navbar after adding, modifying Todos.
 
 ## The screenshots of the website are attached below
